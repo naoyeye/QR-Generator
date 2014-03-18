@@ -65,9 +65,10 @@ module.exports = {
                 }
             });     
         } else {
-            res.send({
-                error : 'Specify content pls. '
-            });
+            // res.send({
+            //     error : 'Specify content pls. '
+            // });
+            res.redirect('/');
         }
     }
 };
