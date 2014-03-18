@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'wandoujia';
+    src:url('/bower_components/Wandoujia-Logo-font-icon/fonts/wandoujia.eot?tnjbzq');
+    src:url('/bower_components/Wandoujia-Logo-font-icon/fonts/wandoujia.eot?#iefixtnjbzq') format('embedded-opentype'),
+        url('/bower_components/Wandoujia-Logo-font-icon/fonts/wandoujia.woff?tnjbzq') format('woff'),
+        url('/bower_components/Wandoujia-Logo-font-icon/fonts/wandoujia.ttf?tnjbzq') format('truetype'),
+        url('/bower_components/Wandoujia-Logo-font-icon/fonts/wandoujia.svg?tnjbzq#wandoujia') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'wandoujia';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-wdj-logo:before {
+    content: "\e600";
+}
+
+
+html{
+    background: #f4f4f2;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background: #f4f4f2;
+    font:13px Helvetica, arial, freesans, clean, sans-serif;
+    line-height: 1.4;
+}
+header{
+    background: url(http://perber.qiniudn.com/aWNvbi5wbmc=_1395148129358) top center no-repeat;
+    background-size: 256px;
+    text-align: center;
+    padding-top: 256px;
+}
+
+h1.header.ui{
+    color: #666664;
+}
+h1.header i{color: #3baa24}
+h1.header span{font-weight: 200;color: #3baa24}
+
+article{
+    max-width: 600px;
+    min-width: 300px;
+    margin: 40px auto;
+}
+
+.ui.selection.dropdown{
+    width: 81%;
+}
+.ui.selection.dropdown>.dropdown.icon{
+    position: absolute;
+    right: 10px;
+}
+.center{
+    text-align: center;
+}
+.ui.button{
+    text-transform: none;
+    font-weight: 400;
+}
+footer{
+    color: #999997;
+    text-align: center;
+    padding: 20px 0;
+    background: #f4f4f2;
+}

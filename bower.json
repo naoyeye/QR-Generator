@@ -1,0 +1,24 @@
+{
+  "name": "QR-Generator",
+  "version": "0.0.0",
+  "authors": [
+    "J.Y Han <ihanjiyun@gmail.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "semantic-ui": "~0.15.1",
+    "Wandoujia-Logo-font-icon": "*"
+  }
+}

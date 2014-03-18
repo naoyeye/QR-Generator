@@ -13,6 +13,18 @@ module.exports = function (grunt) {
 
     grunt.initConfig({
         paths : pathConfig,
+        copy: {
+            dev: {
+                files: [
+                {
+                    expand: true,
+                    cwd: './assets',
+                    src: ['**/*.!(coffee)'],
+                    dest: '.tmp/public'
+                }
+                ]
+            }
+        },
         watch : {
         },
         open: {
@@ -21,9 +33,8 @@ module.exports = function (grunt) {
                 app : 'Google Chrome Canary'
             }
         },
-        clean : {
-            dist : ['<%= paths.tmp %>', '<%= paths.dist %>'],
-            server : '<%= paths.tmp %>'
+        clean: {
+            dev: ['.tmp/public/**']
         },
         bump : {
             options : {
@@ -51,7 +62,7 @@ module.exports = function (grunt) {
         },
         concurrent : {
             server : {
-                tasks : ['nodemon:dev', 'node-inspector', 'watch', 'open'],
+                tasks : ['clean:dev', 'copy:dev', 'nodemon:dev', 'node-inspector', 'watch', 'open'],
                 options : {
                     logConcurrentOutput: true
                 }

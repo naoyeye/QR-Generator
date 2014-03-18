@@ -4,7 +4,7 @@
     "version": "0.0.0",
     "description": "QR Code generate service. ",
     "dependencies": {
-        "sails": "0.9.9",
+        "sails": "0.9.13",
         "ejs": "0.8.4",
         "optimist": "0.3.4",
         "request" : "2.33.0",
@@ -13,7 +13,7 @@
         "memory-cache" : "0.0.5"
     },
     "devDependencies": {
-        "sails": "0.9.9",
+        "sails": "0.9.13",
         "ejs": "0.8.4",
         "optimist": "0.3.4",
         "qr-image" : "1.1.0",
@@ -44,7 +44,7 @@
     "main": "app.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/wandoulabs/Domino-Server.git"
+        "url": "https://github.com/wandoulabs/QR-Generator.git"
     },
     "author": "frontend-team@wandoujia.com",
     "license": "MIT"

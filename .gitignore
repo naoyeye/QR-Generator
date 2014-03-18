@@ -2,3 +2,6 @@
 
 /caches/*.png
 /node_modules/
+
+.tmp
+bower_components

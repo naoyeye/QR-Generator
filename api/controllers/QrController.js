@@ -18,7 +18,7 @@ module.exports = {
         var encoding = getParam('encoding') || 'utf-8';
         var content = getParam('content');
         var leven = getParam('leven') || 'M';
-        var margin = getParam('margin') || 2;
+        var margin = parseInt(getParam('margin')) || 2;
 
         var options = {
             type : 'png',
