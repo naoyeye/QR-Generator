@@ -1,4 +1,4 @@
 *.sublime*
 
-/caches/
+/caches/*.png
 /node_modules/
