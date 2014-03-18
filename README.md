@@ -11,18 +11,33 @@ and
 
 `bower install`
 
-Run
+Run & Usage
 ----
 `grunt server`
 
-open:  [http://localhost:1337](http://localhost:1337)
+open [http://localhost:1337](http://localhost:1337)
+
+enter something(text or URL) in the input box
+
+select parameters
+
+click button.
+
+
+In another way
+----
+`grunt server`
+
+then visit:
+[http://localhost:1337/qr/gen?s=50&c=http://www.wandoujia.com](http://localhost:1337/qr/gen?s=50&c=http://www.wandoujia.com)
 
 
 Preview
 ----
-
-
 ![](http://ww2.sinaimg.cn/large/ed133892gw1eek88j6532j20le0hraay.jpg)
+
+
+
 
 License
 ----
